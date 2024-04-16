@@ -10,5 +10,45 @@
 }
 
 /*************************/
-/* Lorem Ipsum */
+/* General Styles */
 /*************************/
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/*************************/
+/* Navbar */
+/*************************/
+.header {
+  background-color: #1f2937;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #f9faf8;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.nav-links li a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  padding: 24px 16px;
+}
+
+.nav-links li a:hover {
+  background-color: #353e4b;
+}
