@@ -12,6 +12,10 @@
 /*************************/
 /* General Styles */
 /*************************/
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   display: flex;
@@ -196,15 +200,21 @@ blockquote {
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 
-.cta-box button {
+.cta-box .button a {
   display: inline-block;
+  text-decoration: none;
+  color: white;
   font-size: 18px;
   cursor: pointer;
   background-color: transparent;
-  color: white;
   border: 2px solid white;
   border-radius: 5px;
   padding: 8px 24px;
+}
+
+.cta-box .button a:hover {
+  background-color: white;
+  color: #3882f6;
 }
 
 /*************************/
