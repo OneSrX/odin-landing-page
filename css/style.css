@@ -14,6 +14,13 @@
 /*************************/
 body {
   font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
 }
 
 /*************************/
@@ -25,8 +32,10 @@ body {
 
 .navbar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  max-width: 960px;
+  margin-inline: auto;
 }
 
 .logo {
@@ -51,4 +60,51 @@ body {
 
 .nav-links li a:hover {
   background-color: #353e4b;
+}
+
+/*************************/
+/* Hero */
+/*************************/
+.hero-section {
+  background-color: #1f2937;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 48px;
+  max-width: 960px;
+  margin-inline: auto;
+  padding-block: 96px;
+}
+
+.hero-info h1 {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1;
+  color: #f9faf8;
+  margin-bottom: 12px;
+}
+
+.hero-info p {
+  font-size: 18px;
+  color: #e5e7eb;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.hero-info button {
+  display: inline-block;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #3882f6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 24px;
+}
+
+.hero-info button:hover {
+  background-color: #3275dd;
 }
