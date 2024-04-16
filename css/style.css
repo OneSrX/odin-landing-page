@@ -63,7 +63,7 @@ main {
 }
 
 /*************************/
-/* Hero */
+/* Hero Section */
 /*************************/
 .hero-section {
   background-color: #1f2937;
@@ -76,7 +76,7 @@ main {
   gap: 48px;
   max-width: 960px;
   margin-inline: auto;
-  padding-block: 96px;
+  padding-block: 6rem;
 }
 
 .hero-info h1 {
@@ -107,4 +107,44 @@ main {
 
 .hero-info button:hover {
   background-color: #3275dd;
+}
+
+.hero-img img {
+  border-radius: 5px;
+}
+
+/*************************/
+/* Info Section */
+/*************************/
+.info-section h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  padding: 48px;
+  margin-bottom: 16px;
+}
+
+.flex-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  max-width: 960px;
+  margin-inline: auto;
+  margin-bottom: 128px;
+}
+
+.info-box {
+  color: #1f2937;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.info-box img {
+  border: 3px solid #3882f6;
+  border-radius: 5px;
 }
