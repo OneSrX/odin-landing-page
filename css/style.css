@@ -148,3 +148,29 @@ main {
   border: 3px solid #3882f6;
   border-radius: 5px;
 }
+
+/*************************/
+/* Quote Section */
+/*************************/
+.quote-section {
+  background-color: #e5e7eb;
+}
+blockquote {
+  max-width: 960px;
+  margin-inline: auto;
+  padding-block: 144px;
+}
+
+.quote-section blockquote .quote-body {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  margin-bottom: 24px;
+  color: #1f2937;
+}
+
+.quote-section blockquote .quote-cite {
+  font-weight: 900;
+  text-align: right;
+  font-size: 24px;
+}
