@@ -133,7 +133,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 32px;
+  gap: 64px;
   max-width: 960px;
   margin-inline: auto;
   margin-bottom: 128px;
@@ -141,11 +141,15 @@ main {
 
 .info-box {
   color: #1f2937;
-  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 16px;
+}
+
+.info-box p {
+  text-align: center;
+  font-size: 18px;
 }
 
 .info-box img {
@@ -184,7 +188,7 @@ blockquote {
 /* CTA Section */
 /*************************/
 .cta-section {
-  margin-block: 128px;
+  margin-block: 96px;
 }
 
 .cta-box {
